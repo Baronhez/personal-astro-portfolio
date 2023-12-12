@@ -1,0 +1,54 @@
+---
+interface Props {
+    text: string;
+}
+
+const { text } = Astro.props;
+---
+
+<p id="text" data-value={text} class="drop-shadow-lg mt-4 text-center text-7xl font-['Researcher']">{text}</p>
+
+<script>
+    // Code I stole
+    const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    const targetElement = document.querySelector("#text") as HTMLElement;
+
+    function performTrick() {
+        let interval = 0;
+        let iteration = 0;
+
+        clearInterval(interval);
+
+        const originalText = targetElement.dataset.value || "";
+
+        interval = setInterval(() => {
+            targetElement.innerText = originalText
+                .split("")
+                .map((letter, index) => {
+                    if (index < iteration) {
+                        return originalText[index];
+                    }
+
+                    return alphabet[
+                        Math.floor(Math.random() * alphabet.length)
+                    ];
+                })
+                .join("");
+
+            if (iteration >= originalText.length) {
+                clearInterval(interval);
+            }
+
+            iteration += 1 / 3;
+        }, 30);
+    }
+
+    performTrick();
+
+    // Rerun trick on mouseover 
+    if (targetElement) {
+        targetElement.addEventListener("mouseover", (event) => {
+            performTrick();
+        });
+    }
+</script>
