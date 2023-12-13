@@ -3,12 +3,20 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
-  theme: {
-    extend: {
-      fontFamily: {
-        sans: ["Open Sans", ...defaultTheme.fontFamily.sans],
-      },
-    },
-  },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/typography"),
+    require("daisyui")
+  ],
+  daisyui: {
+    themes: [
+      "light",
+      "dark",
+      "black",
+      "cupcake",
+      "corporate",
+      "synthwave",
+      "retro",
+      "cyberpunk",
+    ],
+  }, 
 };

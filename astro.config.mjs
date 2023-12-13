@@ -3,6 +3,7 @@ import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
 import robotsTxt from "astro-robots-txt";
 import { SITE_URL } from "./src/data/config";
+import syntaxTheme from './syntax-theme.json'
 
 
 // https://astro.build/config
@@ -12,7 +13,7 @@ export default defineConfig({
   markdown: {
     syntaxHighlight: "shiki",
     shikiConfig: {
-      theme: "nord",
+      theme: syntaxTheme,
       wrap: false
     }
   }

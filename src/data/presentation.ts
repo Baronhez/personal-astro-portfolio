@@ -13,14 +13,14 @@ type Presentation = {
 
 const presentation: Presentation = {
   mail: "jonathanrodenaslopez1@gmail.com",
-  title: "Hi, I’m Jonathan 👋",
-  // profile: "/profile.webp",
+  title: "JONATHAN",
+  profile: "/picture.jpg",
   description:
     "Hello, I'm a *spanish DevOps Cloud Engineer* with over *3 years* of experience. I am currently working with *AWS and Terraform*. Outside of work, I collect mechanical keyboards, play the guitar, learn about cloud technologies and exercise.",
   socials: [
     {
       label: "X",
-      link: "https://x.com/AAAAAGGHHHH/status/1732182521696182364?s=20",
+      link: "https://twitter.com/Baronhez1",
     },
     {
       label: "Bento",

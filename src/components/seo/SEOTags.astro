@@ -7,16 +7,16 @@ type Props = HeadTags;
 
 const { title, description, noindex, og } = Astro.props;
 
-const DEFAULT_TITLE_PAGE = "Astro - Portfolio template";
+const DEFAULT_TITLE_PAGE = "Jonathan - Portfolio";
 const DEFAULT_DESCRIPTION_PAGE =
-  "A minimal portfolio template built with Astro and Tailwindcss.";
+  "I'm Jonathan Ródenas López, and I work as DevOps Cloud Engineer. I spend most of time learning about how to make devs lifes easier and cloud architecture";
 const DEFAULT_URL_SITE = SITE_URL;
 
 const openGraph = {
   title: title || og?.title || DEFAULT_TITLE_PAGE,
   type: og?.type || "website",
   image: og?.image || "/opengraph-image.jpg",
-  alt: og?.alt || "astro portfolio template image",
+  alt: og?.alt || "Jonathan portfolio image",
   url: DEFAULT_URL_SITE,
   description: og?.description || DEFAULT_DESCRIPTION_PAGE,
 };
@@ -39,7 +39,7 @@ const openGraph = {
       },
     }}
     twitter={{
-      creator: "@itsstormzz_",
+      creator: "@Baronhez1",
     }}
     extend={{
       link: [
@@ -56,8 +56,24 @@ const openGraph = {
         { name: "twitter:card", content: "summary_large_image" },
         { name: "twitter:title", content: openGraph.title },
         { name: "twitter:description", content: openGraph.description },
-        { name: "twitter:site", content: "@itsstormzz_" },
+        { name: "twitter:site", content: "@Baronhez1" },
       ],
     }}
   />
+  <!-- Theme manager -->
+  <script is:inline>
+    if (localStorage.getItem("theme") === null) {
+      document.documentElement.setAttribute("data-theme", "black");
+    } else
+      document.documentElement.setAttribute(
+        "data-theme",
+        localStorage.getItem("theme"),
+      );
+    // "theme" LocalStorage value is set by the package to remember user preference.
+    // The value is checked and applyed before rendering anything.
+  </script>
+  <script>
+    import { themeChange } from "theme-change";
+    themeChange();
+  </script>
 </head>
