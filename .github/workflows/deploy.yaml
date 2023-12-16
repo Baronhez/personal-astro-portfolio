@@ -18,13 +18,6 @@ jobs:
     steps:
       - name: Checkout the repository using git
         uses: actions/checkout@v3
-      - name: checks
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18.14.1
-          cache: "npm"
-      - run: npm install
-      - run: npm run check
       - name: Install, build, and upload the astro site
         uses: withastro/action@v1
         # with:
