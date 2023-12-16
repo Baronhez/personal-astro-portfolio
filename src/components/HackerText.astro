@@ -42,8 +42,8 @@ const { text } = Astro.props;
             iteration += 1 / 3;
         }, 30);
     }
-
-    performTrick();
+    // Commented because executing the trick when entering the page causes bad CLS
+    // performTrick();
 
     // Rerun trick on mouseover 
     if (targetElement) {
