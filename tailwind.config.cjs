@@ -10,9 +10,11 @@ module.exports = {
   daisyui: {
     themes: [
       "light",
+      "lofi",
       "dark",
       "black",
-      "cupcake",
+      "valentine",
+      "dracula",
       "corporate",
       "synthwave",
       "retro",

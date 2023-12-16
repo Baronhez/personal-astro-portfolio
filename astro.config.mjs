@@ -9,7 +9,7 @@ import syntaxTheme from './syntax-theme.json'
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind(), sitemap(), robotsTxt()],
-  site: SITE_URL,
+  site: 'https://jonthan.xyz',
   markdown: {
     syntaxHighlight: "shiki",
     shikiConfig: {

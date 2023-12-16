@@ -9,7 +9,7 @@ const projects: Project[] = [
   {
     title: "Portfolio",
     techs: ["Astro"],
-    link: "/",
+    link: "https://github.com/Baronhez/personal-astro-portfolio",
   },
   {
     title: "Personal Blog about tech",

@@ -12,7 +12,6 @@ import HackerText from "../components/HackerText.astro";
 import CodeHello from "../components/CodeHello.astro";
 import presentation from "@/data/presentation";
 import projects from "@/data/projects";
-
 const posts = (await getCollection("posts")).sort(function (first, second) {
   return second.data.publishedAt.getTime() - first.data.publishedAt.getTime();
 });
@@ -37,7 +36,7 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
       }
 
       <div class="flex flex-col gap-8">
-        <h1 class="text-3xl text-neutral-100 font-['Researcher']">Hi! I’m <HackerText text={presentation.title}/> 👋 </h1>
+        <h1 class="text-3xl font-['Researcher']">Hi! I’m <HackerText text={presentation.title}/> 👋 </h1>
 
         <h2
           class="w-auto max-w-[60ch] leading-6"
@@ -50,7 +49,7 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
     <CodeHello />
     <article class="flex flex-col gap-8">
       <header class="flex w-full flex-row justify-between gap-2">
-        <h3 class="text-lg text-neutral-100">Previous work experience</h3>
+        <h3 class="text-lg">Previous work experience</h3>
         <Link href="/posts" label="See previous job positions" isUnderline target="_self" />
       </header>
       {posts.length === 0 && <p>Soon, stay connected 👀...</p>}
@@ -74,7 +73,7 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
 
     <article class="flex flex-col gap-8">
       <header class="flex w-full flex-row justify-between gap-2">
-        <h3 class="text-lg text-neutral-100">
+        <h3 class="text-lg">
           Selected projects ({projects.length})
         </h3>
       </header>
@@ -90,7 +89,7 @@ const posts = (await getCollection("posts")).sort(function (first, second) {
 
     <article class="flex flex-col gap-8">
       <header class="flex w-full flex-row justify-between gap-2">
-        <h3 class="text-lg text-neutral-100">Get in touch</h3>
+        <h3 class="text-lg">Get in touch</h3>
       </header>
       <p>
         Email me at <Link

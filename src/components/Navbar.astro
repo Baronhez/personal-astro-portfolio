@@ -1,21 +1,15 @@
 ---
-import { Image } from "astro:assets";
-
 import NavItem from "./NavItem.astro";
-
-import foscLogo from "../assets/img/fosc-logo-new.png";
 ---
 
 <div
-  class="navbar bg-base-100 backdrop-blur backdrop-brightness-50 drop-shadow-lg"
+  class="navbar sticky top-0 bg-base-100 backdrop-blur backdrop-brightness-50 drop-shadow-lg z-10"
 >
   <div class="navbar-start">
-    <!-- <Image class="h-24 w-auto" src={foscLogo} alt="FOSC Logo"/> -->
+
     <ul class="menu menu-horizontal px-1">
       <li>
-        <a
-          href="/"
-          class="align-bottom text-bold normal-case text-xl font-['Researcher']">JONATHAN</a>
+        <a href="/" class="align-bottom text-bold normal-case text-xl font-['Researcher']">JONATHAN</a>
       </li>
     </ul>
   </div>
@@ -34,7 +28,10 @@ import foscLogo from "../assets/img/fosc-logo-new.png";
   <div class="navbar-end">
     <select class="select select-ghost" aria-label="Colorscheme picker" data-choose-theme>
       <option value="light">Light</option>
+      <option value="lofi">Lofi</option>
       <option value="dark">Dark</option>
+      <option value="dracula">Dracula</option>
+      <option value="valentine">Valentine</option>
       <option value="cyberpunk">Cyberpunk</option>
       <option value="black">Black</option>
       <option value="retro">Retro</option>
