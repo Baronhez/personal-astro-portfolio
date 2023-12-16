@@ -18,7 +18,7 @@ Among my roles and milestones during this time are:
 
 - Deployed infrastructure at Hetzner using Terraform and Gitlab CI pipelines.
 
-- Optimize the docker images we use in-house to reduce resource consumption and increase performance and the number of concurrent users supported by the infrastructure.
+- Optimize the docker images we use in-house to reduce resource consumption and increase performance and the number of concurrent users supported by the infrastructure, from 15 to 800 concurrent users per host.
 
 - Collaborate with the whole company in the migration of all our product websites, to not only redo from scratch all our wordpress sites, but later migrate them to a new hosting and replace wordpress to use Astro instead.
 
