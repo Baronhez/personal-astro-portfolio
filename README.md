@@ -1,14 +1,5 @@
-# 👨‍🚀 Astro - Portfolio Template
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-
+# 👨‍🚀 Astro - Portfolio
 ![Template](https://github.com/Baronhez/personal-astro-portfolio/blob/main/public/opengraph-image.png)
-
-## 🥷 Usage
-
-- You can modify all the information in the files in the `data` folder (presentation, social links, projects list, colors).
-- You can write articles in `markdown` format in the `content/posts` folder.
 
 ## 🧞 Commands
 
