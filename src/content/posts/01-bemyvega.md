@@ -8,7 +8,7 @@ isPublish: true
 
 ## Projects
 
-During my time at Bemyvega, I have learned a lot of useful skills and have been given the opportunity to manage the entire infrastructure of the company. I have always been able to make the decisions that I felt were right. This has resulted in a total restructuring of the company's infrastructure to a fully efficient and cost-effective serverless model, as opposed to the inefficient and costly infrastructure previously deployed.
+During my time at Bemyvega, I have learned a lot of useful skills and have been given the opportunity to manage the entire infrastructure of the company. I have always been able to make the decisions that I felt were right. This has resulted in a total restructuring of the company's infrastructure to a fully efficient and cost-effective serverless model.
 
 While managing and fixing the infrastructure left behind by the company's previous DevOps (_let's be honest: it was disastrous, expensive, not secure, not scalable, not documented and a disgrace to every industry professional at every level_) I was able to learn a multitude of skills.
 
