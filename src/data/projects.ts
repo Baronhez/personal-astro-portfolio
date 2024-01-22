@@ -8,8 +8,8 @@ export type Project = {
 const projects: Project[] = [
   {
     title: "Portfolio",
-    techs: ["Astro"],
-    link: "https://github.com/Baronhez/personal-astro-portfolio",
+    techs: ["Docker", "Traefik", "ArgoCD", "Ansible", "Kubernetes"],
+    link: "https://flame.jonthan.xyz/",
   },
   {
     title: "Personal Blog about tech",
@@ -17,14 +17,14 @@ const projects: Project[] = [
     link: "https://blog.jonthan.xyz/",
   },
   {
-    title: "Bazart",
-    techs: ["ReactJS (NextJS)", "Flutter", "Github Actions", "Vercel"],
+    title: "Based Cart",
+    techs: ["React Native", "Expo", "Github Actions", "Supabase"],
     link: "/",
     isComingSoon: true,
   },
   {
     title: "Stressify",
-    techs: ["Astro", "Go", "Node", "Github Actions", "AWS"],
+    techs: ["Astro", "Go", "Github Actions", "AWS"],
     link: "/",
     isComingSoon: true,
   },
