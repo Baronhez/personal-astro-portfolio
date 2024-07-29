@@ -2,7 +2,7 @@
 title: "DevOps Cloud Engineer"
 publishedAt: 2023-02-01
 description: "I'm currently working as a DevOps Cloud Engineer at Bemyvega"
-slug: "bemyvega"
+slug: "bemyvega-devops"
 isPublish: true
 ---
 

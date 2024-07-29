@@ -2,7 +2,7 @@
 title: "Chief Technology Officer"
 publishedAt: 2023-05-01
 description: "I'm currently working as a Chief Technology Officer at Bemyvega"
-slug: "bemyvega"
+slug: "bemyvega-cto"
 isPublish: true
 ---
 
