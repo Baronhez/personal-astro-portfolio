@@ -22,12 +22,6 @@ const projects: Project[] = [
     link: "/",
     isComingSoon: true,
   },
-  {
-    title: "Stressify",
-    techs: ["Astro", "Go", "Github Actions", "AWS"],
-    link: "/",
-    isComingSoon: true,
-  },
 ];
 
 export default projects;

@@ -1,95 +1,75 @@
 ---
-title: "DevOps Cloud Engineer"
-publishedAt: 2023-02-01
-description: "I'm currently working as a DevOps Cloud Engineer at Bemyvega"
+title: "Chief Technology Officer"
+publishedAt: 2023-05-01
+description: "I'm currently working as a Chief Technology Officer at Bemyvega"
 slug: "bemyvega"
 isPublish: true
 ---
 
 ## Projects
 
-During my time at Bemyvega, I have learned a lot of useful skills and have been given the opportunity to manage the entire infrastructure of the company. I have always been able to make the decisions that I felt were right. This has resulted in a total restructuring of the company's infrastructure to a fully efficient and cost-effective serverless model.
+During my time at Bemyvega, I have learned a lot of useful skills and have been given the opportunity to lead a professional team of developers during the design and development of numerous disruptive technologies in the industry. During this time, I have had the chance to put into practice everything I know about team leadership, and I have been able to expand with experience everything I know about how to coordinate a multidisciplinary team to ensure the success of the products.
 
-While managing and fixing the infrastructure left behind by the company's previous DevOps (_let's be honest: it was disastrous, expensive, not secure, not scalable, not documented and a disgrace to every industry professional at every level_) I was able to learn a multitude of skills.
+After many years of learning the necessary theory on how to lead the joint efforts of an engineering team, I was given the opportunity to put my knowledge into practice after the abrupt departure of the company's previous CTO.
 
-Among my roles and milestones during this time are:
+A very important thing to learn when you assume a position of responsibility is that your performance in your job is no longer due only to your own work, but to the sum of all the efforts of your staff. That is why it is worth noting that, although I have achieved merits, I must be totally honest and transparent and say that these successes are due to the passion and dedication of my subordinates and colleagues, who have given their best for the company.
 
-- Deploying and managing a kubernetes cluster at Linode and Digital Ocean implementing GitOps methodology with ArgoCD, ensuring that the solution delivered to customers was now scalable and cost-efficient.
+Among the milestones achieve during this time are:
 
-- Deployed infrastructure at Hetzner using Terraform and Gitlab CI pipelines.
+- The creation of an accessibility software for digital screens, which allows users at home to see the content displayed on the screen of a classroom, even from home or in the farthest part of the classroom, with first-rate accessibility tools.
 
-- Optimize the docker images we use in-house to reduce resource consumption and increase performance and the number of concurrent users supported by the infrastructure, from 15 to 800 concurrent users per host.
+- The implementation of artificial intelligence technologies to facilitate the transcription and translation of the classrooms in the region of Murcia in real time, adding, in addition, the use of OCR technology to make more legible what the speaker writes on the blackboard.
 
-- Collaborate with the whole company in the migration of all our product websites, to not only redo from scratch all our wordpress sites, but later migrate them to a new hosting and replace wordpress to use Astro instead.
+- Expansion of functionalities for the product we develop to make web pages more accessible (https://www.goviewser.com/). New features include a screen reader, an online dictionary, the possibility of keyboard navigation (both with keys and using the tab key), the possibility of adapting the page for people with disabilities and the implementation of descriptive windows.
 
-- Create a backup policy for all our code stored in a self-hosted instance of Gitlab and perform backups using Restic.
+- Collaborate with the whole company in the migration of all our product websites.
 
-- I fixed the organizational mess of the company's web domains in Cloudflare and deployed various Cloudflare products using Cloudflare Pages, Github Actions and Cloudflare Wrangler.
+- Restructuring and refactoring of our conferencing and bidirectional platforms. Creation of new platforms, as well as development of new user management, organization and session recording functionalities. New ways to manage platform content, as well as restructuring and deployment of new infrastructure.
 
-The complete restructuring of the infrastructure that I undertook resulted not only in increased scalability and reliability, but also in increased security and reduced costs. The savings were up to 850€ per month in miscellaneous expenses.
+- During my time as CTO, I made numerous decisions of vital importance to the company related to hiring and firing personnel.
 
-During this new phase, my company contracted AWS Professional Service (https://aws.amazon.com/es/professional-services/), so I was able to work closely with qualified and experienced AWS personnel, as well as learn and become familiar with their work methodology and infrastructure best practices (https://aws.amazon.com/architecture/well-architected).
+Now that I have briefly talked about my contribution to the team and the achievements that have been made during the year I have been working as CTO, I now want to talk about the culture in the company.
 
-Among the functions I performed and milestones I achieved were:
+Throughout my life, I have never given any importance to such a thing as "my company culture." To be honest, before I got involved in the subject I always considered it to be nonsense. Pure corporate marketing to justify why they pay their employees the minimum wage while justifying it by serving pizza on Fridays. It was then, during a visit to the Madrid offices of our business partners, Amazon Web Services, that I had the opportunity to speak with someone who completely changed my view on the subject. That day was when I met Crescencio Rodríguez, Head of Professional Services Iberia (AWS).
 
-- I worked closely with the AWS team to ensure best practice compliance and cost optimization in cloud infrastructure, following the AWS Well-Architected Framework.
+That day, after a few conversations about marketing and product design for the coming year, we went down to eat at a restaurant near the offices. The meal was relaxed, and we were able to discuss various topics such as education in Spain. Finally, it was time for all of us who were eating to start talking about company culture.As expected, they started talking about their own values ​​within AWS: **Think big, customer obsession, disagree and commit...**
 
-- I designed the cloud architecture of one of our two products and the first versions of the other.
+At the beginning, everything revolved around these vague ideas that still sounded like cheap marketing to me. It wasn't until Crescencio interrupted this whirlwind of ideas that someone finally really caught my attention. With a simple phrase, he was able to perfectly define what company culture is, avoiding the tide of vague and marketing-like definitions on LinkedIn. "_Company culture is what an employee has on a Sunday night._" That simple sentence changed me, and basically defined how my company culture was going to be from now on (also defining how I want the culture of any company I work for in the future to be). It was then that I mentioned that, when I worked at Capgemini, I was always begging any deity who would deign to listen to me for Friday to come. And when it finally came, I prayed that Monday would never come. Sunday nights were traumatic during that stage of my life.
 
-- I collaborated in the planning and creation of a Landing Zone on AWS to ensure a secure and scalable infrastructure.
+I discussed this situation with them, and we came to the conclusion that the culture of these companies, which hide behind social benefits such as food vouchers and discounts on daycare, ended up being something more akin to slavery than a professional relationship.
 
-- I coordinated the setup of various development, pre-production and production environments on AWS, ensuring separation and resource optimization, using Blue-Green Deployments with canary releases.
+A good company culture (which I would later promote together with my superiors at Bemyvega, and which I hope to be able to promote wherever I go) has several fundamental values:
 
-- I designed the entire backup part of my company with AWS Backup, policies and deployed daily, weekly and monthly backups.
+1. First, work-life balance is essential. Mandatory, in fact. Employees (and executives too) must have the right not only to disconnect from work once the work day is over (no texting or emailing at 2am...) but also, employees must have plenty of time outside of their work day to build a full life. A full life that allows them to develop as a person, pursue their goals, enjoy their hobbies... a life they can live.
 
-- I collaborated on the design of a microservices architecture on AWS that enabled the implementation of video calling using Amazon Chime and the creation of an accessibility widget with AWS Lambdas, Lambda Layers, S3, DynamoDB and CloudFront.
+The opposite example to this point is precisely my experience at Capgemini, as well as that of friends close to me who have experienced, like me, the experience of working from 7 in the morning to 7 in the evening, thanks to the "split shift" and mandatory unpaid overtime. A good company culture encourages, whenever possible, an intensive, non-split workday, which allows employees to avoid spending one to three hours in the office for which they are not paid. At Bemyvega, to encourage this, a working day was defined from 8 a.m. to 3:45 p.m. This way, employees can enjoy the afternoon freely, which has shown a noticeable increase in their happiness and productivity (as shown by quarterly analyses).
 
-- I designed and deployed multiple codePipeline pipelines, AWS Lambda Alias and Github Actions to create Blue-Green deployments and canary releases in the main projects of our company, ensuring seamless and risk-free transitions between different application versions.
+2. If a job can be performed remotely, and is even economically advisable because it can save costs on a physical space for employees, then there are no good reasons not to facilitate remote work.
 
-Ok, now that I've talked in broad strokes about my tasks during the deployment of the company's new serverless infrastructure, I want to talk about my role in the integration of one of the company's main products into the AWS Marketplace.
+I understand here what many executives say: _I want to see my employees in person because we form bonds and blah blah blah_. In many cases (most of them) this obsession with the office is caused by a lack of trust in employees, or by the inexperience of management figures. Neither of these parts is necessarily the fault of the employees, and to top it off, it makes it difficult to balance work and personal life. If you want to build bonds between employees, and between employees and executives, you can always set aside a few days a month (2-4 days, maybe once a week) for employees who want to get together in the office.
 
-Long story short, my company wanted to integrate the web widget we developed (https://www.goviewser.com/) into the AWS Marketplace. Since I am the AWS manager at my company, I was in charge of developing all the necessary documentation for our indicated incorporation into the FTR (https://aws.amazon.com/marketplace/pp/prodview-knhdb46b4cjrc). Subsequently, once I wrote all the documentation and defined everything necessary (such as the RPO and RTO of our products), I made a multitude of changes to meet the necessary security standards in the SecurityHub service. 
+3. "One or twenty thousand social benefits are no substitute for a decent salary, even more so in times of inflation." This was the phrase I said in my exit interview when I left Capgemini. If you want to retain talent in your company, you have to help employees live a decent life. Life, due to inflation, is becoming more and more expensive, and the situation does not seem to improve. Even access to housing is becoming more and more unrealistic for employees in many companies.
 
-I would emphasize that I am a polite, but sincere person. If I see that there is something that can be improved or is inefficient in the work environment, I will highlight the negative points and work to improve the situation in the work environment...
+A good company culture promotes fair rewards for employees. You can even consider rewarding high performers for employees who show particular interest and passion in their work. If employees are not paid enough to live a decent life (I'm not talking about being able to buy a car every month, but I am talking about not being drowned by bills. I'm talking about being able to afford things like buying quality food, or being able to pay the rent or mortgage each month and have enough left over to save), they will want to leave. And those who can't, won't work with all the performance and enthusiasm that can be achieved.
 
-During the infrastructure deployment, a series of bad decisions were imposed on me for the first time (and subsequently I had to undo everything, because I was not listened to). Well, **disagree and commit** (https://medium.com/@voicemod/disagree-and-commit-the-importance-of-disagreement-in-decision-making-4c654bb06a) as they say in AWS.
+4. Fire the brillian jerks. In many companies, especially the smaller ones (and rarely, in very large ones), there is always the figure of the toxic employee, sometimes lazy, who undermines the morale of his team and who always carries out actions that harm the company (constantly criticizes all the effort put in by others, does not work correctly, increases the workload of his colleagues but continues to collect his salary).
 
-Among the bad decisions that were made against my will are:
+Sometimes these employees are not fired because of a close relationship with an executive, or because the decision-makers do not feel like firing someone. Sometimes it is even because, despite being toxic people, they are "supposed geniuses" who are "indispensable" to the company. A good company culture rewards a situation that is fair for everyone. No employee who harms the company or his colleagues through his behavior should be left on the payroll, otherwise, his colleagues could perceive that, without making an effort, they will also receive their salary every month, and therefore, it is not worth working. "Without punishment, we spoil the bandits" as the saying goes.
 
-**1.** I had to set up the entire infrastructure with Terraform, but instead of using s3 and dynamoDB as backend (option recommended by AWS) I was forced to use Terraform Cloud. Finally, as I already warned, we had to export the state files when we exceeded the free tier.
+5. Show employees that their work has an impact on the company. A good company culture shows employees that their work is important, which helps keep them motivated. It's hard to give your all at work if you feel like you're just a cog in a machine that's much bigger than yourself. A good company culture helps employees see firsthand the impact their work has. This is a tricky one, as it depends on the nature of each employee's job, and the company. A huge company has a much harder time showing an accountant the huge impact their hours have.
 
-Finally, as I already warned, we had to export the state files when we exceeded the free tier. Now we use a s3 bucket as backend with dynamoDB table. Both deployed with a cloudformation stack. 
+These, in summary, are the key points for building a good company culture. After applying them, I have managed to get my entire team to constantly tell me how happy they are to work at bemyvega, and we have managed to increase the number of features developed and the overall happiness of the company, not just the engineering team.
 
-I ended up creating a Github Actions workflow that we used as a template for each infrastructure repository. This workflow deploys the infrastructure using terraform, passing chekov security checks (https://www.checkov.io/) and checking the terraform plans with atlantis (https://www.runatlantis.io/).
+In my humble opinion, during my time as CTO of bemyvega, while maintaining my role as DevOps Cloud Engineer, I have achieved great success with my team.
 
-**2.** We deployed a whole infrastructure to check the veracity of the requests coming from our clients' frontends. As I already warned, putting security checks in frontend is like _"poner puertas al campo"_ as we say in Spain.
+Conditions have improved a lot. It is true that during the first few months my job consisted of reversing the disaster of the previous CTO and reestablishing relations with our business partners (the previous CTO was almost sued for abuse, and several business partners indicated that they did not want to meet with him anymore due to his repeated lack of respect), but once I had finished resolving these issues, the development of the projects accelerated enormously.
 
-For this purpose, we deployed infrastructure with lambda, lambda layers, a dynamoDB table, and a cloudfront distribution.
-
-This translated into more than 5 seconds of load time each time someone wanted to use the web widget. It was a disastrous user experience, and all for not listening to me and doing what the competition does.
-
-
-## Technologies used 
-
-In the course of my duties, I have used and continue to use multiple tools at Bemyvega. The most outstanding ones are:
-_Kubernetes, Docker, Terraform, CloudFormation, Gitlab CI, Github Actions, AWS_.
+It is worth adding the context that the previous CTO went so far as to threaten the entire engineering team that if they did not manage to get the work done easily, he would find someone else to do it. In the face of his constant threats, it was difficult for the team to be motivated to move forward.
 
 ## Personal opinion
 
-In my opinion, this is the best company I have ever worked for. I have been able to learn enormously, always accompanied by great friends.
-
-I have been able to learn from AWS professionals with many years of experience.
-
-I have always enjoyed the full confidence of the company's management team. Moreover, I would like to emphasize the good time, vacation and salary conditions that I enjoy in the company. It really stands out from other companies in the sector, and I recognize that I am inclined to want to work in such a healthy environment.
+Bemyvega has become my second home, and the best company I have ever worked for, in my two current roles. I have always been treated with great respect by the CEO and my decisions have been supported. My judgment has always been trusted and my team and I have been rewarded for all the dedication we put into Bemyvega projects.
 
 > Rating: **10/10**. I highly recommend working for this company. The conditions are impressive, and the management team is really open-minded and communicative. The work environment is positive, healthy and relaxed.
 
-[https://medium.com/news-uk-technology/c4-model-a-better-way-to-visualise-software-architecture-df41e5ac57b8]: https://medium.com/news-uk-technology/c4-model-a-better-way-to-visualise-software-architecture-df41e5ac57b8
-
-[https://aws.amazon.com/es/professional-services/]: https://aws.amazon.com/es/professional-services/
-
-[https://aws.amazon.com/architecture/well-architected]: https://aws.amazon.com/architecture/well-architected
-
 [https://www.goviewser.com/]: https://www.goviewser.com/
-
-[https://aws.amazon.com/marketplace/pp/prodview-knhdb46b4cjrc]: https://aws.amazon.com/marketplace/pp/prodview-knhdb46b4cjrc
