@@ -56,7 +56,7 @@ During the infrastructure deployment, a series of bad decisions were imposed on 
 
 Among the bad decisions that were made against my will are:
 
-**1.** I had to set up the entire infrastructure with Terraform, but instead of using s3 and dynamoDB as backend (option recommended by AWS) I was forced to use Terraform Cloud. Finally, as I already warned, we had to export the state files when we exceeded the free tier.
+**1.** I had to set up the entire infrastructure with Terraform, but instead of using s3 and dynamoDB as backend (option recommended by AWS) I was forced to use Terraform Cloud. 
 
 Finally, as I already warned, we had to export the state files when we exceeded the free tier. Now we use a s3 bucket as backend with dynamoDB table. Both deployed with a cloudformation stack. 
 
