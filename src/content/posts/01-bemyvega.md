@@ -60,11 +60,11 @@ Sometimes these employees are not fired because of a close relationship with an 
 
 These, in summary, are the key points for building a good company culture. After applying them, I have managed to get my entire team to constantly tell me how happy they are to work at bemyvega, and we have managed to increase the number of features developed and the overall happiness of the company, not just the engineering team.
 
-In my humble opinion, during my time as CTO of bemyvega, while maintaining my role as DevOps Cloud Engineer, I have achieved great success with my team.
+In my humble opinion, during my time as CTO of bemyvega (while maintaining my role as DevOps Cloud Engineer) I have achieved great success.
 
-Conditions have improved a lot. It is true that during the first few months my job consisted of reversing the disaster of the previous CTO and reestablishing relations with our business partners (the previous CTO was almost sued for abuse, and several business partners indicated that they did not want to meet with him anymore due to his repeated lack of respect), but once I had finished resolving these issues, the development of the projects accelerated enormously.
+Conditions have improved a lot. It is true that, during the first few months, my job consisted of reversing the disaster of the previous CTO and reestablishing relations with our business partners (the previous CTO was almost sued for abuse, and several business partners indicated that they did not want to meet with him anymore due to his repeated lack of respect). Once I had finished resolving these issues, the development of the projects accelerated enormously.
 
-It is worth adding the context that the previous CTO went so far as to threaten the entire engineering team that if they did not manage to get the work done easily, he would find someone else to do it. In the face of his constant threats, it was difficult for the team to be motivated to move forward.
+(It is worth adding the context that the previous CTO went so far as to threaten the entire engineering team that if they did not manage to get the work done easily, he would find someone else to do it. In the face of his constant threats, it was difficult for the team to be motivated to move forward.)
 
 ## Personal opinion
 
