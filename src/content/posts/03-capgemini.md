@@ -1,6 +1,6 @@
 ---
 title: "DevOps Engineer"
-publishedAt: 2022-03-02
+publishedAt: 2020-03-02
 description: "I have worked as DevOps Engineer at Capgemini"
 slug: "capgemini"
 isPublish: true
