@@ -12,7 +12,7 @@ type Presentation = {
 };
 
 const presentation: Presentation = {
-  mail: "jonathanrodenaslopez1@gmail.com",
+  mail: "",
   title: "WELCOME",
   //profile: "/picture.jpg",
   description:
